@@ -20,6 +20,7 @@ public class playerCollision : MonoBehaviour {
         {
             movement.enabled = false;
             rb.useGravity = true;
+            rb.AddForce(4 * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
             Invoke("GameOver", 3f);
         }
         if (collisionInfo.collider.tag == "collectable")
