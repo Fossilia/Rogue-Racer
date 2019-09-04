@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TerrainCreator : MonoBehaviour {
+public class Zone1_TerrainCreator : MonoBehaviour {
 
     public GameObject[] buildings;
     public GameObject collectable;

@@ -11,6 +11,7 @@ TagManager:
   - obstacle
   - projectile
   - collectable
+  - portal
   layers:
   - Default
   - TransparentFX

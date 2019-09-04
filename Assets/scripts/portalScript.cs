@@ -25,7 +25,7 @@ public class portalScript : MonoBehaviour
     {
         if (collisionInfo.collider.name == "Player")
         {
-            SceneManager.LoadScene("buildingZone"); //change scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1); //change scene
         }
     }
 }
