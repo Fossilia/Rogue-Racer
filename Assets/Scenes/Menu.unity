@@ -1094,7 +1094,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 0a76789ebfa73d047a74cd29ac63a30d, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 50
     m_Alignment: 1
@@ -1103,7 +1103,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: XspeedX
+  m_Text: Rogue Racer
 --- !u!222 &2079746061
 CanvasRenderer:
   m_ObjectHideFlags: 0
